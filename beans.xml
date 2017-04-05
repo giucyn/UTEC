@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id= "curso1" class = "org.springUtec.Curso" />
+
+<bean id= "malla1" class = "org.springUtec.Malla" />
+ <property name="codmalla" value="001" />
+ <property name="descripcionlarga" value="MALLA CURSOS EGRESADOS" />
+ <property name="estado" value="1" />
+ <property name="curso" value="BASE DATOS 1" />
+</beans>
